@@ -20,7 +20,7 @@ function btnDesencriptar(){
 function copiar() {
     mensaje.select(); // Selecciona el texto dentro del área de texto
     document.execCommand("copy"); // Copia el texto seleccionado al portapapeles
-    alert("Texto copiado: " + mensaje.value); // Muestra una alerta con el texto copiado
+    // alert("Texto copiado: " + mensaje.value); // Muestra una alerta con el texto copiado
   }
   
 
